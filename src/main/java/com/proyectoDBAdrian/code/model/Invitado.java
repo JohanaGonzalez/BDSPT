@@ -30,6 +30,4 @@ public class Invitado {
 	public void setEstatura(int estatura) {
 		this.estatura = estatura;
 	}
-	
-	
 }

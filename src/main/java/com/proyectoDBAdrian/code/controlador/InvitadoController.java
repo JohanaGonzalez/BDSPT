@@ -19,7 +19,7 @@ public class InvitadoController {
 	
 	@GetMapping
 	public List<Invitado>  obtenerInvitados(){
-		System.out.println("Hola mundo");
+		System.out.println("Hola Johana");
 		return service.obtenerListaInvitados();
 	}
 }

@@ -7,5 +7,5 @@ import com.proyectoDBAdrian.code.model.Invitado;
 
 @Repository
 public interface InvitadoRepository extends JpaRepository<Invitado, Integer> {
-	
+
 }
