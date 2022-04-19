@@ -2,10 +2,8 @@ package com.proyectoDBAdrian.code.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name="lugares")
 public class Lugar {
     @Id
     private Integer id;

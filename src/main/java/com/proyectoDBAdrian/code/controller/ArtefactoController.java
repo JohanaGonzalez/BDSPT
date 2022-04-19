@@ -1,4 +1,4 @@
-package com.proyectoDBAdrian.code.controlador;
+package com.proyectoDBAdrian.code.controller;
 
 import java.util.List;
 

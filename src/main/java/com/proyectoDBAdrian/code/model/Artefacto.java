@@ -1,8 +1,6 @@
 package com.proyectoDBAdrian.code.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="Artefactos")
@@ -11,8 +9,10 @@ public class Artefacto {
 	private Integer id;
 	private String nombre;
 	private Integer medida;
-	private Integer lugar;
-	
+
+	@ManyToOne
+	private Lugar lugar;
+
 	public Integer getId() {
 		return id;
 	}
@@ -31,12 +31,10 @@ public class Artefacto {
 	public void setMedida(Integer medida) {
 		this.medida = medida;
 	}
-	public Integer getLugar() {
+	public Lugar getLugar() {
 		return lugar;
 	}
-	public void setLugar(Integer lugar) {
+	public void setLugar(Lugar lugar) {
 		this.lugar = lugar;
 	}
-	
-	
 }
